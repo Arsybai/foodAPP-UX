@@ -1,0 +1,114 @@
+body {
+    background-color: #ffff;
+    font-family: Poppins;
+}
+.container {
+    background-color: #ffff;
+}
+.bg-green {
+    background-color: #05b993;
+    color: white;
+}
+.text-green {
+    color: #05b993;
+}
+.text-purple {
+    color: #705ecf;
+}
+.greeting {
+    margin-top: 10%;
+}
+.greeting-name {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: bold;
+}
+.float-right {
+    float: right;
+}
+.box {
+    background-color: #eee;
+    padding: 3px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.search-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 4px;
+    border: 1px solid rgba(219, 219, 219, 0.507);
+    border-radius: 10px;
+}
+.search-icon {
+    border: none;
+    background-color: inherit;
+    font-weight: bold;
+}
+.filter-icon {
+    border-radius: 7px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.no-border {
+    border: none;
+}
+.fit-content {
+    width: fit-content;
+}
+.overflow-y-scroll {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    --ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+.card {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.img-item {
+    padding: 3px;
+    border-radius: 10px;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.active {
+    background-color: #705ecf;
+    color: white;
+}
+.width-max {
+    width: 100%;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.padding-20 {
+    padding: 20px;
+}
+.margin-bot-10 {
+    margin-bottom: 10px;
+}
+.padding-bot-30 {
+    padding-bottom: 30px;
+}
+.no-decoration {
+    text-decoration: none;   
+}
+.text-black {
+    color: black;
+}
+.nav-active {
+    color: #705ecf;
+    font-size: 2rem;
+}

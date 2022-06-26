@@ -5,13 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food order app UI</title>
+    <link rel="shortcut icon" href="/assets/img/burger.png" type="image/x-icon">
     <!--Bootstrap 5.X-->
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
     <script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="/assets/bootstrap-icons/bootstrap-icons.css">
     <!--Custom CSS-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 <body>
+    <div class="container">
+        <!--Greeting-->
+        <div class="greeting">
+            <div class="row">
+                <div class="col">
+                    <h6>
+                        <span class="text-secondary">Good Evening!</span>
+                        <br>
+                        <span class="greeting-name">Arsybai</span>
+                    </h6>
+                </div>
+                <div class="col">
+                    <div class="shadow box float-right">
+                        <img src="/assets/img/ava.png" alt="AVA" height="60px" width="60px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Greeting End-->
+
+        <!--Search Form-->
+        <div class="input-group mb-3 search-box shadow">
+            <span class="input-group-text search-icon"><i class="bi-search text-bold"></i></span>
+            <input type="text" class="form-control no-border" placeholder="Search...">
+            <span class="input-group-text filter-icon bg-green"><i class="bi-funnel text-bold"></i></span>
+        </div>
+        <!--Search Form End-->
+
+        <!--Category-->
+            <div class="row d-flex flex-row flex-nowrap overflow-y-scroll padding-bot-30">
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="/assets/img/pizza.png" alt="img" height="70px" width="70px" class="shadow img-item">
+                            <h6 class="text-bold margin-top-10">Pizza</h6>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="/assets/img/burger.png" alt="img" height="70px" width="70px" class="shadow img-item">
+                            <h6 class="text-bold margin-top-10">Burger</h6>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col">
+                    <div class="card shadow active">
+                        <div class="card-body text-center">
+                            <img src="/assets/img/cake.png" alt="img" height="70px" width="70px" class="shadow img-item">
+                            <h6 class="text-bold margin-top-10">Cake</h6>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="/assets/img/drink.png" alt="img" height="70px" width="70px" class="shadow img-item">
+                            <h6 class="text-bold margin-top-10">Drink</h6>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <img src="/assets/img/taco.png" alt="img" height="70px" width="70px" class="shadow img-item">
+                            <h6 class="text-bold margin-top-10">Taco</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Category End-->
+
+        <!--Item-->
+        <div class="margin-top-10">
+            <div class="row">
+                <div class="col">
+                    <a href="/single.html" class="no-decoration">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="/assets/img/cake1.png" alt="img" height="120px" width="120px">
+                                    <h6 class="text-bold text-black">Medium Cake</h6>
+                                </div>
+                                <hr>
+                                <h5 class="text-green text-bold">
+                                    $20.00
+                                    <span class="float-right text-purple"><i class="bi-heart-fill"></i></span>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/single.html" class="no-decoration">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="/assets/img/cake2.png" alt="img" height="120px" width="120px">
+                                    <h6 class="text-bold text-black">Large Cake</h6>
+                                </div>
+                                <hr>
+                                <h5 class="text-green text-bold">
+                                    $40.00
+                                    <span class="float-right text-purple"><i class="bi-heart"></i></span>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Item End-->
+
+        <!--Navbar-->
+        <div class="navbar">
+            <div class="row width-max">
+                <div class="col text-center">
+                    <h2 class="nav-active"><i class="bi-house-fill"></i></h2>
+                </div>
+                <div class="col text-center">
+                    <h2 class="text-secondary"><i class="bi-heart"></i></h2>
+                </div>
+                <div class="col text-center">
+                    <h2 class="text-secondary"><i class="bi-bag"></i></h2>
+                </div>
+                <div class="col text-center">
+                    <h2 class="text-secondary"><i class="bi-bell"></i></h2>
+                </div>
+            </div>
+        </div>
+        <!--Navbar End-->
+    </div>
 </body>
 </html>
