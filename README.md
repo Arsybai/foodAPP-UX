@@ -1,2 +1,2 @@
 # foodAPP-UI
-UIUX for food order App
+UX food order App
